@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/primary" />
+            <size android:width="48dp" android:height="48dp" />
+        </shape>
+    </item>
+    
+    <!-- Cart Icon -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <size android:width="24dp" android:height="16dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    
+    <!-- Cart Handle -->
+    <item android:gravity="center_horizontal|top" android:top="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <size android:width="16dp" android:height="2dp" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    
+    <!-- Crown accent -->
+    <item android:gravity="center_horizontal|top" android:top="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/accent" />
+            <size android:width="8dp" android:height="4dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Order Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/orderIdText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ORD12345"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirmed"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:background="@color/gray100"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp" />
+
+        </LinearLayout>
+
+        <!-- Order Details -->
+        <TextView
+            android:id="@+id/orderDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordered on Dec 20, 2024"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/deliveryDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery by Dec 25, 2024"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Order Summary -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/itemCountText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3 item(s)"
+                android:textSize="14sp"
+                android:textColor="@color/textSecondary" />
+
+            <TextView
+                android:id="@+id/paymentMethodText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash on Delivery"
+                android:textSize="12sp"
+                android:textColor="@color/textHint"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/totalAmountText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹2999"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/textPrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

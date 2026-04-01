@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Primary Colors -->
+    <color name="primary">#6366F1</color>
+    <color name="primaryDark">#4F46E5</color>
+    <color name="primaryLight">#A5B4FC</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#10B981</color>
+    <color name="accentLight">#6EE7B7</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="surfaceColor">#F8FAFC</color>
+    
+    <!-- Text Colors -->
+    <color name="textPrimary">#1E293B</color>
+    <color name="textSecondary">#64748B</color>
+    <color name="textHint">#94A3B8</color>
+    
+    <!-- Input Colors -->
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="inputBorder">#E2E8F0</color>
+    <color name="inputFocused">#6366F1</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#3B82F6</color>
+    
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray50">#F8FAFC</color>
+    <color name="gray100">#F1F5F9</color>
+    <color name="gray200">#E2E8F0</color>
+    <color name="gray300">#CBD5E1</color>
+    <color name="gray400">#94A3B8</color>
+    <color name="gray500">#64748B</color>
+    <color name="gray600">#475569</color>
+    <color name="gray700">#334155</color>
+    <color name="gray800">#1E293B</color>
+    <color name="gray900">#0F172A</color>
+    
+    <!-- Special Colors -->
+    <color name="discount">#DC2626</color>
+    <color name="favorite">#F59E0B</color>
+    <color name="shadow">#1E293B20</color>
+
+</resources>

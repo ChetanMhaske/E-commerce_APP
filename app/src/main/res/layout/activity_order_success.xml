@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Success Icon -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@android:drawable/ic_dialog_info"
+        android:tint="@color/success"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Success Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Placed Successfully!"
+        android:textColor="@color/textPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for shopping with EliteCart"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Order Details Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackground"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:id="@+id/orderIdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order ID: ORD12345"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/deliveryDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expected delivery: Dec 25, 2024"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/paymentMethodText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment: Cash on Delivery"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You will receive order updates via SMS and email"
+            android:textColor="@color/textHint"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Continue Shopping Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continueShoppingBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/button_background"
+        android:text="Continue Shopping"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
